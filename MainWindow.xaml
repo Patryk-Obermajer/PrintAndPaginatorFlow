@@ -1,0 +1,77 @@
+﻿<Window x:Class="PrintAndPaginatorFlow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrintAndPaginatorFlow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--<DocumentViewer>
+            <FixedDocument>
+                
+            </FixedDocument>
+        </DocumentViewer>-->
+        <FlowDocumentPageViewer  HorizontalAlignment="Left" >
+            <FlowDocument  Background="LightGoldenrodYellow" PageHeight="29.7cm" PageWidth="21.0cm" PagePadding="2.25cm,4.25cm,2.25cm,3.25cm" FontStyle="Oblique" >
+                <Section TextAlignment="Center">
+                    <Paragraph>
+                        Welcome, welcome
+                       Wielkie czasy wymagaja wielkich ludzi. Istnieja bohaterowie nieznani, skromni, bez slawy i historii Napoleona. Analiza ich charakteru zacmilaby jednak slawe nawet Aleksandra Macedonskiego. Dzisiaj na ulicach praskich mozecie spotkac steranego zyciem czlowieka, który sam nawet nie wie, jakie znaczenie ma w historii nowych wielkich czasów. Idzie sobie skromnie swoja droga, nikomu sie nie naprzykrza i jemu tez nie naprzykrzaja sie dziennikarze, którzy domagaliby sie od niego wywiadu. Gdybyscie go zapytali, jak sie nazywa, odpowiedzialby wam skromniutko i prosto: ,,Jestem Szwejk".
+                    </Paragraph>
+                    <Paragraph FontFamily="arial"> 
+                        Welcome, welcome
+                    </Paragraph>
+                    
+                </Section>
+                <Section TextAlignment="Right">
+                <Paragraph>
+                    Welcome, welcome
+                    Wielkie czasy wymagaja wielkich ludzi. Istnieja bohaterowie nieznani, skromni, bez slawy i historii Napoleona. Analiza ich charakteru zacmilaby jednak slawe nawet Aleksandra Macedonskiego. Dzisiaj na ulicach praskich mozecie spotkac steranego zyciem czlowieka, który sam nawet nie wie, jakie znaczenie ma w historii nowych wielkich czasów. Idzie sobie skromnie swoja droga, nikomu sie nie naprzykrza i jemu tez nie naprzykrzaja sie dziennikarze, którzy domagaliby sie od niego wywiadu. Gdybyscie go zapytali, jak sie nazywa, odpowiedzialby wam skromniutko i prosto: ,,Jestem Szwejk".
+                </Paragraph>
+                <Paragraph>
+                        <Run FontSize="16">Wielkie czasy wymagaja wielkich ludzi. Istnieja bohaterowie nieznani, skromni, bez slawy i historii Napoleona. Analiza ich charakteru zacmilaby jednak slawe nawet Aleksandra Macedonskiego. Dzisiaj na ulicach praskich mozecie spotkac steranego zyciem czlowieka, który sam nawet nie wie, jakie znaczenie ma w historii nowych wielkich czasów. Idzie sobie skromnie swoja droga, nikomu sie nie naprzykrza i jemu tez nie naprzykrzaja sie dziennikarze, którzy domagaliby sie od niego wywiadu. Gdybyscie go zapytali, jak sie nazywa, odpowiedzialby wam skromniutko i prosto: ,,Jestem Szwejk".</Run>
+                </Paragraph>
+                <Paragraph>
+                    Welcome, welcome
+                </Paragraph>
+                <Paragraph>
+                    Welcome, welcome
+                </Paragraph>
+                <Paragraph>
+                    Welcome, welcome
+                </Paragraph>
+                <Paragraph>
+                    Welcome, welcome
+                </Paragraph>
+                </Section>
+                <Paragraph TextAlignment="Center">
+                    Welcome, welcome
+                </Paragraph>
+                <Paragraph TextAlignment="Center">
+                    Eat Shit
+                </Paragraph>
+                <Paragraph>
+                    Welcome, welcome
+                </Paragraph>
+                <Paragraph>
+                    Welcome, welcome
+                </Paragraph>
+                <Paragraph>
+                    Welcome, welcome
+                </Paragraph>
+                <Paragraph>
+                    <Run>dob dob</Run>
+                    <Run ToolTip="kuba to dziecko">kuba</Run>
+                    srankie
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+        <Button Grid.Row="1" Margin="20" Content=" This button Eats shit ladies and gents, thank you thank you, you were great "  Click="Button_Click"></Button>
+    </Grid>
+    
+</Window>
