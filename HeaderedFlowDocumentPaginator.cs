@@ -36,18 +36,20 @@ namespace PrintAndPaginatorFlow
             DrawingVisual header = new DrawingVisual();
             using (DrawingContext context = header.RenderOpen())
             {
-                Typeface typeface = new Typeface("Roboto");
-                FormattedText text = new FormattedText("Page " + (pageNumber + 1).ToString(),
+                Typeface typeface = new Typeface("Arial");
+                FormattedText text = new FormattedText("Sheet " + (pageNumber + 1).ToString(),
                   CultureInfo.CurrentCulture, FlowDirection.LeftToRight,
-                  typeface, 14, Brushes.Black);
+                  typeface, 15, Brushes.Black);
 
                 // Leave a quarter-inch of space between the page edge and this text.
-                context.DrawText(text, new Point(96 * 1, 96 * 1));
+                context.DrawText(text, new Point(37.795275 * 10, 37.795275 * 2.5));
 
             }
             // Add the title to the visual.
             newVisual.Children.Add(header);
 
+            MyVisualHost myVisual = new MyVisualHost();
+            newVisual.Children.Add(myVisual);
             Size pageSize = new Size(793.7007874, 1122.519685);
             Rect bleedBox = new Rect(pageSize);
             

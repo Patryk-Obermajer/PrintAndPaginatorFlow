@@ -13,9 +13,9 @@
         </Grid.RowDefinitions>
 
         <FlowDocumentReader Name="docReader" >
-            <FlowDocument  Background="LightGoldenrodYellow" PagePadding="3cm,4.25cm,3cm,3.25cm"  IsOptimalParagraphEnabled="True" IsHyphenationEnabled="True"  >
-                <Section TextAlignment="Center">
-                    <Paragraph>
+            <FlowDocument  Background="LightGoldenrodYellow" PagePadding="3cm,4.25cm,3cm,3.25cm"  IsOptimalParagraphEnabled="True" IsHyphenationEnabled="True" PageHeight="29.7cm"  PageWidth="21cm">
+                <Section TextAlignment="Center" >
+                    <Paragraph TextAlignment="Justify">
                         Welcome, welcome Wielkie czasy wymagaja wielkich ludzi. Istnieja bohaterowie nieznani, skromni, bez slawy i historii Napoleona. Analiza ich charakteru zacmilaby jednak slawe nawet Aleksandra Macedonskiego. Dzisiaj na ulicach praskich mozecie spotkac steranego zyciem czlowieka, który sam nawet nie wie, jakie znaczenie ma w historii nowych wielkich czasów. Idzie sobie skromnie swoja droga, nikomu sie nie naprzykrza i jemu tez nie naprzykrzaja sie dziennikarze, którzy domagaliby sie od niego wywiadu. Gdybyscie go zapytali, jak sie nazywa, odpowiedzialby wam skromniutko i prosto: ,,Jestem Szwejk".
                         Welcome, welcome Wielkie czasy wymagaja wielkich ludzi. Istnieja bohaterowie nieznani, skromni, bez slawy i historii Napoleona. Analiza ich charakteru zacmilaby jednak slawe nawet Aleksandra Macedonskiego. Dzisiaj na ulicach praskich mozecie spotkac steranego zyciem czlowieka, który sam nawet nie wie, jakie znaczenie ma w historii nowych wielkich czasów. Idzie sobie skromnie swoja droga, nikomu sie nie naprzykrza i jemu tez nie naprzykrzaja sie dziennikarze, którzy domagaliby sie od niego wywiadu. Gdybyscie go zapytali, jak sie nazywa, odpowiedzialby wam skromniutko i prosto: ,,Jestem Szwejk".
                         Welcome, welcome Wielkie czasy wymagaja wielkich ludzi. Istnieja bohaterowie nieznani, skromni, bez slawy i historii Napoleona. Analiza ich charakteru zacmilaby jednak slawe nawet Aleksandra Macedonskiego. Dzisiaj na ulicach praskich mozecie spotkac steranego zyciem czlowieka, który sam nawet nie wie, jakie znaczenie ma w historii nowych wielkich czasów. Idzie sobie skromnie swoja droga, nikomu sie nie naprzykrza i jemu tez nie naprzykrzaja sie dziennikarze, którzy domagaliby sie od niego wywiadu. Gdybyscie go zapytali, jak sie nazywa, odpowiedzialby wam skromniutko i prosto: ,,Jestem Szwejk".
