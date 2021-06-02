@@ -74,8 +74,6 @@ Welcome, welcome Wielkie czasy wymagaja wielkich ludzi. Istnieja bohaterowie nie
                 </Paragraph>
                 <Paragraph>
                     <Run>dob dob</Run>
-                    <Run ToolTip="kuba to dziecko">kuba</Run>
-                    srankie
                 </Paragraph>
             </FlowDocument>
         </FlowDocumentReader>

@@ -127,7 +127,6 @@ namespace PrintAndPaginatorFlow
             return drawingVisual;
         }
 
-
         // Provide a required override for the VisualChildrenCount property.
         protected override int VisualChildrenCount => _children.Count;
 

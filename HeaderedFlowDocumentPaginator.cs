@@ -18,7 +18,7 @@ namespace PrintAndPaginatorFlow
         public HeaderedFlowDocumentPaginator(FlowDocument document)
         {
             flowDocumentPaginator = ((IDocumentPaginatorSource)document).DocumentPaginator;
-            flowDocumentPaginator.Source.DocumentPaginator.PageSize = new Size(234, 454);
+            
         }
 
         public override DocumentPage GetPage(int pageNumber)
@@ -48,7 +48,7 @@ namespace PrintAndPaginatorFlow
             // Add the title to the visual.
             newVisual.Children.Add(header);
 
-            MyVisualHost myVisual = new MyVisualHost();
+            MyVisualHost myVisual = new MyVisualHost ();
             newVisual.Children.Add(myVisual);
             Size pageSize = new Size(793.7007874, 1122.519685);
             Rect bleedBox = new Rect(pageSize);
